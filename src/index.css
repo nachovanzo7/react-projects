@@ -36,7 +36,7 @@ body {
 }
 
 .board h1 {
-  color: #eee;
+  color: #eeeeee;
   margin-bottom: 16px;
 }
 
@@ -45,7 +45,7 @@ body {
   margin: 25px;
   background: transparent;
   border: 2px solid #ffa200;
-  color: #eeeeee;
+  color: #e48c08;
   width: 100px;
   border-radius: 5px;
   transition: 0.2s;

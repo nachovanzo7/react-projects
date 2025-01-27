@@ -53,7 +53,7 @@ function App() {
   return (
     <main className="board">
       <img src={tateti} alt="" />
-      <button onClick={resetGame}>Reset del juego</button>
+      <button onClick={resetGame} className="botonReset">Reset del juego</button>
       <section className="game">
         {board.map((square, index) => (
           <Square key={index} index={index} updateBoard={updateBoard}>
